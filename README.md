@@ -4,11 +4,11 @@
 - Simple case: the dynamics of the two network is independent, the dynamical equations are $\dot{\theta_i} = \omega_i + c \sum_{j = 1}^N A_{ij} \sin(\theta_j - \theta_i) + b\ \sin(\omega_f t - \theta_i) \quad i = 1,..,N$
 - Complex case: the dynamics of the two networks is correlated: the interedependence is inserted in the external coupling that depends on the state of the two networks, the dynamical equations are
 $$
-f(x)=
-\begin{cases}
-1/d_{ij} & \quad \text{when $d_{ij} \leq 160$}\\ 
-0 & \quad \text{otherwise}
-\end{cases}
+\begin{matrix}
+1 & 2 & 3 \\
+4 & 5 & 6 \\
+7 & 8 & 9
+\end{matrix}
 $$
 
 Concerning the structure of the code, the folder *examples* contains the jupyter files to perform the main plots and some calculations:
